@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    font-weight: normal;
+}
+
+.titulomarine {
+    color: #209cee;
+    text-shadow: 3px 3px 5px #28cacf;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    justify-content: center;
+    background-image: url("../recursos/bannermarine.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.dosemarine {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.textomarine {
+    font-size: 30px;
+    color: #307bdd;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    margin: 20px
+}
+
+.imagenes_delos_marine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.marine img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.marine h1 {
+    text-align: center;
+    display: colum;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #1f56ce;
+}

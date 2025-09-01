@@ -6,6 +6,7 @@
 }
 .tituloCherry{
     color:palevioletred;
+    text-shadow: 3px 3px 5px #db4881;
     text-align: center;
     background-image:url("../recursos/bannerflores.jpg");
     background-size: cover;
@@ -14,7 +15,7 @@
     display: flex;
     flex-direction: column;      
     justify-content: center;             
-     font-size: 100px; 
+    font-size: 100px; 
 }
 .cuatrodecherry{
    width: 310px;  
@@ -29,14 +30,13 @@
 }
 .contenido{
   display: flex;
-  flex-direction: row;
-  align-items:center;
-  display: flex;
+  /*no se para que sirve*/
+  align-items:center; /*diplay sobrante xd */
   margin:20px
 }
 .imagenestxtFlex {
   display: flex;
-  flex-direction: row; 
+  flex-wrap: wrap; /*para que las imagenes salten de linea*/
   justify-content: center; 
   align-items: center; 
   gap: 20px; 
