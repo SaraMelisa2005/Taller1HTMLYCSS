@@ -58,3 +58,12 @@
     font-size: 20px;
     color: palevioletred;
 }
+.boton-regreso {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  border-radius: 20px;
+}
+.boton-regreso a img {
+  width: 100px;
+}

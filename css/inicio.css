@@ -12,7 +12,7 @@
   margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 5px;
-  margin-right: 5px;  /* este no lo esta tomando */
+  margin-right: 5px;
   font-size: 60px;
   padding: 40px;
   position: fixed;
@@ -25,8 +25,8 @@
    display: block; 
    font-size: 24px; 
    margin-top: 10px; 
-   font-weight: normal;  /* es para colocar cuanto de negrilla tiene pero no se nota mucho */
-   color: white;  /* xd ya tenia el color blanco */
+   font-weight: normal;
+   color: white;
 }
 .subtitulo{
   color: lightcoral;
@@ -45,7 +45,7 @@
     padding-top: 250px;
 }
 .botonSweets{
-   width: 410px;  /* tiene diferente tamaño a los otros  */
+   width: 410px;
   height: auto;   
   margin: 10px;  
   cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 a{
-  color: transparent; /* porque se ve las lineas negras de los lines */
+  color: transparent; 
 }
 .botonSweets,
 .botonCherry,
