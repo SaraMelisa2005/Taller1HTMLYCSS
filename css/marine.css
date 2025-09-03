@@ -53,9 +53,17 @@
 
 .marine h1 {
     text-align: center;
-    display: colum;
     margin-top: 10px;
     font-size: 20px;
     color: #1f56ce;
 }
 
+.boton-regreso {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  border-radius: 20px;
+}
+.boton-regreso a img {
+  width: 100px;
+}
